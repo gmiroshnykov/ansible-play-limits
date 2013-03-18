@@ -1,0 +1,4 @@
+- name: copy limits settings
+  copy:
+    src=tasks/limits/files/limits.conf
+    dest=/etc/security/limits.d/tuning.conf
